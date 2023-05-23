@@ -14,21 +14,22 @@
         crossorigin="anonymous"></script>
 </head>
 
-<body class="container-fluid d-flex justify-content-center align-items-center">
+<body class="container-fluid d-flex justify-content-center align-items-center text-light">
 
     <div class="areaLogin">
         <div class="container-fluid d-flex justify-content-center h-100">
             <div class="row">
-                <div class="d-flex justify-content-center logo">
+                <div class="d-flex justify-content-center logo"><!--Logo da empresa-->
                     <a class="logo-descrição" href="#"><i class="fa-sharp fa-solid fa-location-dot rd-color"></i> KSB
                         Viagens</a>
                 </div>
-                <form>
+
+                <form><!--Inicio do campo de login-->
                     <div class="mb-3">
                         <label for="exampleInputEmail1" class="form-label d-flex justify-content-center">Email</label>
                         <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
                             placeholder="name@example.com">
-                        <div id="emailHelp" class="form-text d-flex justify-content-center">Nunca compartilharemos seu
+                        <div id="emailHelp" class="form-text d-flex justify-content-center text-light">Nunca compartilharemos seu
                             e-mail com mais ninguém.</div>
                     </div>
                     <div class="mb-3">
@@ -36,7 +37,7 @@
                             class="form-label d-flex justify-content-center">Password</label>
                         <input type="password" class="form-control " id="exampleInputPassword1"
                             placeholder="*******************">
-                        <div id="passwordHelp" class="form-text d-flex justify-content-center">Nunca compartilharemos
+                        <div id="passwordHelp" class="form-text d-flex justify-content-center text-light">Nunca compartilharemos
                             sua senha com mais ninguém.</div>
                     </div>
                     <div class="mb-3 form-check">
@@ -44,15 +45,16 @@
                         <label class="form-check-label" for="exampleCheck1">Salvar credenciais</label>
                     </div>
                     <button type="submit" class="btn btn-danger w-100" id="liveAlertBtn">Logar</button>
-                </form>
+                </form><!--Final do campo de login-->
 
-                <div class="d-flex justify-content-center align-items-center">
+                
+                <div class="d-flex justify-content-center align-items-center"><!--Aqui começa a parte do modal com o botão registrar-->
                     <button type="submit" class="btn btn-primary w-100 h-50" data-bs-toggle="modal"
                         data-bs-target="#exampleModal" data-bs-whatever="@mdo">Register</button>
-                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    <div class="modal fade " id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
                         aria-hidden="true">
                         <div class="modal-dialog">
-                            <div class="modal-content">
+                            <div class="modal-content bg-dark">
                                 <div class="modal-header">
                                     <h1 class="modal-title fs-5" id="exampleModalLabel">New Register</h1>
                                     <button type="button" class="btn-close" data-bs-dismiss="modal"
@@ -70,6 +72,7 @@
                                                     aria-label="Last name">
                                             </div>
                                         </div>
+
                                         <form class="row g-3">
                                             <div class="col-sm">
                                                 <br>
@@ -83,9 +86,6 @@
                                                 <br>
                                             </div>
 
-
-
-
                                             <div class="row g-3">
 
                                                 <div class="col">
@@ -98,20 +98,21 @@
                                                         aria-label="Confirme sua senha">
                                                 </div>
                                             </div>
-
                                         </form>
                                     </form>
                                 </div>
+
                                 <div class="modal-footer">
-                                    <button type="button" class="btn btn-secondary"
+                                    <button type="button" class="btn btn-secondary text-light"
                                         data-bs-dismiss="modal">Fechar</button>
                                         
                                     <button type="button" class="btn btn-danger">Confirmar</button>
                                 </div>
+
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> <!--Aqui Finaliza a parte do modal com o botão registrar-->
 
             </div>
         </div>

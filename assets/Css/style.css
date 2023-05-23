@@ -6,9 +6,10 @@ body{
 
 
 .areaLogin{
-    background-color: white;
+    background-color: rgb(24, 24, 24);
     width: 600px;
     height: 500px;
+    border-radius: 20px;
 }
 
 .logo a{
@@ -16,7 +17,7 @@ body{
 }
 
 .logo i{
-    color: black;
+    color: #ffffff;
 }
 
 .logo-descrição{
