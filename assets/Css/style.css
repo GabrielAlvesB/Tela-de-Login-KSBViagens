@@ -6,10 +6,22 @@ body{
 
 
 .areaLogin{
-    background-color: red;
+    background-color: white;
     width: 600px;
     height: 400px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
+
+.logo a{
+    text-decoration: none;
+}
+
+.logo i{
+    color: black;
+}
+
+.logo-descrição{
+    color: red;
+    font-size: 40px;
+    margin: 10px;
+}
+
