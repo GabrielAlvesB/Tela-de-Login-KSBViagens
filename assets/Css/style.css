@@ -1,7 +1,7 @@
 body{
     height: 100vh;
     background: rgb(185,11,11);
-    background: radial-gradient(circle, rgba(185,11,11,0.7147233893557423) 53%, rgba(0,0,0,1) 89%);
+    background: radial-gradient(circle, rgba(185,11,11,0.7147233893557423) 53%, rgba(0,0,0,1) 89%);/*Gradiente*/
 }
 
 
