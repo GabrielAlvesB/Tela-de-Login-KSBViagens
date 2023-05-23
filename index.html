@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,41 +9,118 @@
     <link href="assets/Css/bootstrap/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="assets/Css/style.css">
     <title>Login</title>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js" integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js"
+        integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE"
+        crossorigin="anonymous"></script>
 </head>
+
 <body class="container-fluid d-flex justify-content-center align-items-center">
-    
+
     <div class="areaLogin">
-        <div class="container-fluid d-flex justify-content-center">
+        <div class="container-fluid d-flex justify-content-center h-100">
             <div class="row">
                 <div class="d-flex justify-content-center logo">
-                    <a class="logo-descrição" href="#"><i class="fa-sharp fa-solid fa-location-dot rd-color"></i> KSB Viagens</a>
+                    <a class="logo-descrição" href="#"><i class="fa-sharp fa-solid fa-location-dot rd-color"></i> KSB
+                        Viagens</a>
                 </div>
                 <form>
                     <div class="mb-3">
-                      <label for="exampleInputEmail1" class="form-label">Email</label>
-                      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="name@example.com">
-                      <div id="emailHelp" class="form-text">Nunca compartilharemos seu e-mail com mais ninguém.</div>
+                        <label for="exampleInputEmail1" class="form-label d-flex justify-content-center">Email</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                            placeholder="name@example.com">
+                        <div id="emailHelp" class="form-text d-flex justify-content-center">Nunca compartilharemos seu
+                            e-mail com mais ninguém.</div>
                     </div>
                     <div class="mb-3">
-                      <label for="exampleInputPassword1" class="form-label">Password</label>
-                      <input type="password" class="form-control" id="exampleInputPassword1">
-                      <div id="passwordHelp" class="form-text">Nunca compartilharemos sua senha com mais ninguém.</div>
+                        <label for="exampleInputPassword1"
+                            class="form-label d-flex justify-content-center">Password</label>
+                        <input type="password" class="form-control " id="exampleInputPassword1"
+                            placeholder="*******************">
+                        <div id="passwordHelp" class="form-text d-flex justify-content-center">Nunca compartilharemos
+                            sua senha com mais ninguém.</div>
                     </div>
                     <div class="mb-3 form-check">
-                      <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                      <label class="form-check-label" for="exampleCheck1">Salvar credenciais</label>
+                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                        <label class="form-check-label" for="exampleCheck1">Salvar credenciais</label>
                     </div>
                     <button type="submit" class="btn btn-danger w-100" id="liveAlertBtn">Logar</button>
-                  </form>
-                  <hr>
+                </form>
+
+                <div class="d-flex justify-content-center align-items-center">
+                    <button type="submit" class="btn btn-primary w-100 h-50" data-bs-toggle="modal"
+                        data-bs-target="#exampleModal" data-bs-whatever="@mdo">Register</button>
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h1 class="modal-title fs-5" id="exampleModalLabel">New Register</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <form>
+                                        <div class="row g-3">
+                                            <div class="col">
+                                                <input type="text" class="form-control" placeholder="First name"
+                                                    aria-label="First name">
+                                            </div>
+                                            <div class="col">
+                                                <input type="text" class="form-control" placeholder="Last name"
+                                                    aria-label="Last name">
+                                            </div>
+                                        </div>
+                                        <form class="row g-3">
+                                            <div class="col-sm">
+                                                <br>
+                                                <input type="email" class="form-control" id="inputEmail4"
+                                                    placeholder="Email">
+                                            </div>
+                                            <div class="col-sm">
+                                                <br>
+                                                <input type="email" class="form-control" id="inputEmail4"
+                                                    placeholder="Confirme o e-mail">
+                                                <br>
+                                            </div>
+
+
+
+
+                                            <div class="row g-3">
+
+                                                <div class="col">
+                                                    <input type="password" class="form-control"
+                                                        placeholder="Digite sua senha" aria-label="Digite sua senha">
+                                                </div>
+                                                <div class="col">
+                                                    <input type="password" class="form-control"
+                                                        placeholder="Confirme sua senha"
+                                                        aria-label="Confirme sua senha">
+                                                </div>
+                                            </div>
+
+                                        </form>
+                                    </form>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary"
+                                        data-bs-dismiss="modal">Fechar</button>
+                                        
+                                    <button type="button" class="btn btn-danger">Confirmar</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </div>
     </div>
 
-    
-    
-<script src="assets/JS/script.js"></script>
-<script src="assets/JS/bootstrap.bundle.min.js"></script>
+
+
+    <script src="assets/JS/script.js"></script>
+    <script src="assets/JS/bootstrap.bundle.min.js"></script>
 </body>
+
 </html>
