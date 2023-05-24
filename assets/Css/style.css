@@ -29,3 +29,9 @@ body{
 .modal-centro{
     height: 100vh;
 }
+
+@media only screen and (max-width: 860px) {
+    .areaLogin{
+        height: 550px;
+    } 
+}
