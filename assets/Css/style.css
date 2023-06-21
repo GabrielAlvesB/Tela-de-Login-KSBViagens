@@ -3,7 +3,9 @@ body{
     background: rgb(185,11,11);
     background: radial-gradient(circle, rgba(185,11,11,0.7147233893557423) 53%, rgba(0,0,0,1) 89%);/*Gradiente*/
 }
-
+a{
+    color: #ffffff;
+}
 
 .areaLogin{
     background-color: rgb(24, 24, 24);
@@ -11,8 +13,7 @@ body{
     height: 500px;
     border-radius: 20px;
 }
-
-.logo a{
+.logo a,a{
     text-decoration: none;
 }
 
